@@ -1,0 +1,43 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.fistbumpButton {
+  background-color: #F4DB7D;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Archivo Narrow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+}
+
+.buildspace {
+  color: #9DAAF2;
+}
