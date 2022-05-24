@@ -15,11 +15,18 @@
 .header {
   color: whitesmoke;
   text-align: center;
-  font-size: 42px;
+  font-size: 52px;
   font-weight: 600;
 }
 
-.bio {
+.powered_by {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.tagline {
   text-align: center;
   color: whitesmoke;
   margin-top: 16px;
@@ -38,6 +45,43 @@
   font-size: 20px;
 }
 
+.accent {
+  text-decoration: underline;
+  text-decoration-color: #F4DB7D;
+  text-underline-position: under;
+}
+
+.history {
+  text-align: left;
+  color: whitesmoke;
+  margin-top: 16px;
+  font-size: 40px;
+}
+
 .buildspace {
   color: #9DAAF2;
 }
+
+ol {
+  list-style: none;
+  counter-reset: steps;
+}
+ol li {
+  counter-increment: steps;
+}
+ol li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background: #FF6A3D;
+  color: white;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1.2em;
+}
+ol ol li::before {
+  background: darkorchid;
+}
+
